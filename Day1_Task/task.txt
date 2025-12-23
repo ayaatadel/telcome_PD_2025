@@ -1,6 +1,7 @@
-=======> clone my repo  and write your name on file names.txt
-===> upload any project or task (html,css) [on repo on your git hub]and use git hub pages
+=======> clone my repo  and create file (in folder Day1_task) with your name --> push
+
+===> create repo on your git hub upload any project or task (html,css) and use git hub pages
 ----------> on your repo add README.md file 
 ----------> on your repo add .gitignore
 
----------> self study handel ssh Key
+---------> self study handel ssh Key and how to use
