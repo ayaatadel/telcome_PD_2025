@@ -10,3 +10,7 @@
 --add all files (all changes all files)      :  git add  .
 
 -- commit changes (create version)  : git commit -m "MSG"
+
+-- show commits : git log   =====> [commit id ?? author ?? data ?? commit_message  ]
+-- show commits one line: git log --oneline   =====> [commit id ?? commit_message  ]
+
