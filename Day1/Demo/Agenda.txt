@@ -63,3 +63,8 @@ working area                      staging area                     local_Repo   
 --------------------> test for back from commit   
 -------------------------> remove commit changes already saved (staging) ---> git reset --soft Head^ (^ : Number of Commits)
 -------------------------> remove commit changes also removed (working (as i didn't do any thing))--->  git reset --hard Head^
+
+---------------------------> link change with latest commit with out create new commit 
+                                                    git add fileName
+                                                    git commit --amend ==> tab(if you want to change Commit Msg)
+                                                    close file (Tab)
