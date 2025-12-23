@@ -1,4 +1,4 @@
 .env
 *.pdf
 pass.txt
-Day1/test/*.png
+test/*.png
