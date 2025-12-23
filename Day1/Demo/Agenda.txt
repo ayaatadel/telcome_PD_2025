@@ -67,10 +67,15 @@ collaborators : add peoples on your repo as team  [ setting - collaborators]
 clone :  copy repo ---> create any folder --> git bash ==> git clone linkRepo [https://github.com/ayaatadel/telcome_PD_2025.git]
 ====> Acces on Repo ----> added as collaborator 
 
------------------> changes 
+-----------------> changes  (Pull Request)
 git add .
 git commit -m "msg"
---------> git push origin master *********************
+--------> git push origin master [[ rejected --->rejected because the remote contains work that you do not ]]
+git pull origin master
+
+git add .
+git commit -m "msg"
+git push origin master
 
 
 --------------------------------
