@@ -54,7 +54,12 @@ working area                      staging area                     local_Repo   
 -------- git add file_Name  --------------------------->      git commit -am "Msg"
 ------------> add || commit (-a :: add || -m :: msg)
 
+                                               <-----------------remove commit without removing changes
+                                               git reset --soft Head^ 
+    <------------------------------------------------- with removing changes and commit
+                                               git reset --hard Head^ 
 
---------------------> test for back from commit 
--------------------------> remove commit changes already saved
--------------------------> remove commit changes also removed 
+
+--------------------> test for back from commit   
+-------------------------> remove commit changes already saved (staging) ---> git reset --soft Head^ (^ : Number of Commits)
+-------------------------> remove commit changes also removed (working (as i didn't do any thing))--->  git reset --hard Head^
