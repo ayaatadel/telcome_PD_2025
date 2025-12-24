@@ -1,0 +1,32 @@
+============>
+branches
+merge between branches
+pull request
+stashing
+fork
+organization
+------------------------------------
+Branches : new feature
+-----------
+new repo : master 
+---> features
+main ---> 
+dev ---> 
+
+------------------------------->
+master ---> pull request 
+Branches --> organize code  ---> merge 
+
+
+------------------>  New Project 
+structre --->  branch --> merge (master)
+-----------------------------------------------------------> Commands
+1- list all branches : git branch
+1- Create new branches : git branch branch_Name
+
+---> feature/feat-sturcture   --------> ziad
+---> feature/feat-login   --------> mostafa
+---> feature/feat-register   --------> mohammed
+---> feature/feat-navbar   --------> fouad
+---> bug/fix-login-error
+---> test/test-login-page
