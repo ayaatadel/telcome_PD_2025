@@ -167,4 +167,15 @@ git push origin  dev
 
 
 
-===================================== PULL Request ==============================
+merge between branches (remotely) across (github)   =========> (pull from remote between branches) == (merge betwen branches in local)
+
+
+tasks every day :
+git swicth your_branch 
+git status (add , commit) 
+git pull your_branch_remote -------[admin merge your_branch ]
+[ check if their any conflicts (solve all conflicts)]
+git status (add , commit) 
+
+git push remote branch
+---------> start new code 

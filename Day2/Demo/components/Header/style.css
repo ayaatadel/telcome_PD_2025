@@ -7,16 +7,12 @@ p{
     font-family: Arial, sans-serif;
         color: #333;
 }
+header{
+    background-color: #f4f4f4;
+    padding: 20px 0;}
 section{
-    margin: 20px;
-}
-h1{
-    font-family: 'Helvetica Neue', sans-serif;
-    color: #9f1111;
-    font-size: 24px;
-    padding: 10px 0;
-   text-decoration: dotted;
-    margin: 20px 0;
+    padding: 20px;
+    background-color: #6e6b6b;
 }
 p{
     color: #070587;
@@ -36,6 +32,51 @@ div{
     border-radius: 5px;
     padding: 15px;
     background-color: #fff;
+}h1{
+    font-size: 24px;
+    color: #222;
+    text-align: center;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 8px;
+}
+ul{
+    list-style-type: disc;
+    margin-left: 20px;
+}
+li{
+    margin-bottom: 5px;
+}
+
+form{
+    margin: 20px 0;
+}
+input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+label{
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
 }
 button{
     padding: 10px 15px;
@@ -44,4 +85,68 @@ button{
     border: none;
     border-radius: 3px;
     cursor: pointer;
+}
+button:hover{
+    background-color: #0056b3;
+}
+a{
+    color: #007BFF;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+h1{
+    font-size: 24px;
+    color: #222;
+    text-align: center;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 8px;
+}
+ul{
+    list-style-type: disc;
+    margin-left: 20px;
+}
+li{
+    margin-bottom: 5px;
+}
+
+form{
+    margin: 20px 0;
+}
+input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+label{
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
 }
