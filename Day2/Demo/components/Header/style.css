@@ -11,16 +11,18 @@ section{
     margin: 20px;
 }
 h1{
+    font-family: 'Helvetica Neue', sans-serif;
     color: #9f1111;
     font-size: 24px;
-    text-align: center;
+    padding: 10px 0;
+   text-decoration: dotted;
     margin: 20px 0;
 }
 p{
     color: #070587;
     font-size: 16px;
     text-align: center;
-    margin: 10px 0;
+    padding: 10px 0;
 }
 header{
     background-color: #f4f4f4;
@@ -29,7 +31,7 @@ section{
     padding: 20px;
     background-color: #6e6b6b;
 }
-card{
+div{
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 15px;
