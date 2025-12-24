@@ -5,6 +5,9 @@ organization
 كل واحد هيعمل organizatio وهيضيف عليها الاشخاص اللي معاه 
 وهيعمل ريبو عليها ويضيف عليها الاشخاص اللي معاه 
 وهيغير ف الصلاحيات للي معاه
+
+=================
+repo ---> project --> main , feature (merge between main and feature)
 --------------------------------------------------------
 Every team has 6 organization and 6 repos with different rules
 
@@ -30,3 +33,7 @@ Seif Ashraf Mohamed
 Youssef Amgad Selim Mossad
 Ziad Mofreh Attia Khattab
 Ziad Osama Mahmoud
+
+=======================================> 
+name -==> add your name 
+index --> feature --> create branch --> merege with main
