@@ -1,0 +1,81 @@
+============> person work on two featrures related with each athor 
+home page ===> header , footer , products 
+---- branch (home) ---> strucure 
+---- branch (header)
+---- branch (footer)
+
+
+----------------------->  
+finish home ---> push (remote)
+----> start header 
+create branch header --> 
+git pull from master 
+git status  (add , commit)
+git push origin header
+--->
+git pull origin home
+git status  (add , commit)
+git push origin header
+[ finish code]
+add 
+commit 
+git push origin header
+--------------------------------->
+Admin || developer -------> merge (home <-- header)
+Admin || developer -------> merge (home--> master)
+
+================================================>
+----> start footer
+create branch footer  and switch -->  
+git pull from master 
+git status  (add , commit)
+git push origin footer  -------------------> sync with master
+--->
+git pull origin home  -------------------> sync with home
+git status  (add , commit)
+git push origin footer
+[ finish code]
+add 
+commit 
+git push origin footer
+
+--------------------------------->
+Admin || developer -------> merge (home <-- footer)
+Admin || developer -------> merge (home--> master)
+
+
+
+
+===================================> Only task  p1 , p2
+
+********************* p1 ****************************
+
+p1 --> create feature1
+switch branch 
+git pull from master [ if any conflicts solve ]
+git status  (add , commit)
+git push origin feature1  -------------------> sync with master
+
+------> start  his code code 
+git status  (add , commit)
+git push origin feature1 
+
+--------------------------> Admin 
+
+Admin || developer -------> merge (feature1 --> master)
+
+********************* p2 ****************************
+
+p1 --> create feature2
+switch branch 
+git pull from master  [ if any conflicts solve ]
+git status  (add , commit) 
+git push origin feature2  -------------------> sync with master
+
+------> start  his code code 
+git status  (add , commit)
+git push origin feature2 
+
+--------------------------> Admin 
+
+Admin || developer -------> merge (feature2 --> master)  
