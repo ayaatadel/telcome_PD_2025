@@ -11,17 +11,6 @@ Marwan Helmy
 Mahmoud Osama Mohamed
 Mohamed Hesham
 mohamed abdulnaby
-<<<<<<< HEAD
-<<<<<<< HEAD
-===============
-
-=======
-
->>>>>>> a6d0d1928eeb1100e4708a83e492be7b672a5925
-
-=======
 Mahmoud Salah
 Ali Mahmoud
->>>>>>> 45c7d64480eb0a4ba73fbe2559e9a745003366b8
-
 Medhat Osama 
