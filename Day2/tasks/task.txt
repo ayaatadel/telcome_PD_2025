@@ -1,0 +1,32 @@
+=============> fork 
+هل لو انا عملت تعديل هل ممكن يسمع ع الريبو الاصليه
+=====================>
+organization
+كل واحد هيعمل organizatio وهيضيف عليها الاشخاص اللي معاه 
+وهيعمل ريبو عليها ويضيف عليها الاشخاص اللي معاه 
+وهيغير ف الصلاحيات للي معاه
+--------------------------------------------------------
+Every team has 6 organization and 6 repos with different rules
+
+-------------------- team1
+Ahmed Omar Abdul Aziz
+Ali Mahmoud Abdelhalim Mohamed Omran
+Fady Mohamed Abdelfatah
+fouad yasser fouad sdiq
+Mahmoud Elsayed Eissa
+Mahmoud Osama Mohamed
+
+--------------------------------- team2
+Mahmoud Salah Abdullah AbdulAaty
+Marwan Helmy Abdelgyed Mostafa Elsheikh
+Medhat Osama Fathy Hassan Khalil
+mohamed abdulnaby abdullah
+Mohamed Ali Ali Alhamaimy
+Mohamed Hesham Elsayed Mahmoud
+---------------------------------------- team3
+Omar Mahmoud Elsayed
+Roqaya Saad Ahmed AlKhuoty
+Seif Ashraf Mohamed
+Youssef Amgad Selim Mossad
+Ziad Mofreh Attia Khattab
+Ziad Osama Mahmoud

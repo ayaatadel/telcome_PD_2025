@@ -179,3 +179,8 @@ git status (add , commit)
 
 git push remote branch
 ---------> start new code 
+
+
+==============================****************************======================
+fork ===>  copy repo ---> 
+clone (copy repo )
