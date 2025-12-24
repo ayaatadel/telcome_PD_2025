@@ -5,27 +5,13 @@ Mohamed Ali
 fouad yasser
 Ziad Khattab
 Ziad Osama Mahmoud
-<<<<<<< HEAD
 Fady Mohamed
-
-=======
->>>>>>> cf2340ecf57eb4b6564daaa907f5f273f588884a
 mahmoud elsayed eissa 
 Mohamed Hesham
 Marwan Helmy
 Mahmoud Osama Mohamed
 Mohamed Hesham
-<<<<<<< HEAD
-<<<<<<< HEAD
-===============
-
-=======
-
->>>>>>> a6d0d1928eeb1100e4708a83e492be7b672a5925
-
-=======
 Mahmoud Salah
 Ali Mahmoud
->>>>>>> 45c7d64480eb0a4ba73fbe2559e9a745003366b8
-
 Medhat Osama 
+Youssef Amgad 
