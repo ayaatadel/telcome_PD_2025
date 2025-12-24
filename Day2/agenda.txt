@@ -22,8 +22,21 @@ Branches --> organize code  ---> merge
 structre --->  branch --> merge (master)
 -----------------------------------------------------------> Commands
 1- list all branches : git branch
-1- Create new branches : git branch branch_Name
+2- Create new branches : git branch branch_Name
+3- switch branches : git switch branch_Name
+4- create branch + switch branch : git switch -c branchName
+------> switch branch + push
+5- push branch remote repo : git push origin branchName 
 
+--------------------------> checkout (old)   -------------> brachs + files 
+1- git checkout branchName : switch branch 
+2- git checkout -b branchName : create + switch branch 
+3- git checkout index.html ====> back to file (restore)
+ 
+
+
+
+------------------> Naming of branches
 ---> feature/feat-sturcture   --------> ziad
 ---> feature/feat-login   --------> mostafa
 ---> feature/feat-register   --------> mohammed
@@ -41,3 +54,114 @@ structre --->  branch --> merge (master)
 ----------------------------------------------->
 login  (page) xxxxxxxx || structure (all pages except login) 
 Merge (big ----> small)
+---------------------------------->looooooooooooooooooooooooocal
+master 
+dev || main 
+features ===> login , register , products 
+login---> merge (dev)
+merge (dev , master)
+pull --> master
+finish ---> (merge -> dev) --> merge (dev, master)
+-------------------------------------------------------->
+repo 
+branches (features) 
+---------------------> merge between login , dev
+1- git switch login 
+2- git status (add , commit)
+3- push login (remote)
+4- git merge dev  (conflict [solve] ====> commit && or not )
+5- push remote 
+
+-------------------------> dev
+1- switch dev 
+2- git status (add , commit)
+3- push dev (remote)
+4- git merge login  (conflict [solve] ====> commit && or not )
+5- push remote 
+-----------------------> master
+merge (dev , master)
+
+
+********************************************************* >>
+dev branch remote 
+---> merge 
+switch dev ---> pull request 
+---> switch login
+---------------------> merge between login , dev
+1- git switch login 
+2- git status (add , commit)
+3- push login (remote)
+4- git merge dev  (conflict [solve] ====> commit && or not )
+5- push remote 
+***************************************************************** >>
+-------------------------> dev
+1- switch dev  ------> pull remote 
+2- git status (add , commit)
+3- push dev (remote)
+4- git merge login  (conflict [solve] ====> commit && or not )
+5- push remote 
+-----------------------> master
+merge (dev , master)
+
+)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+
+feature one ==============> register 
+git switch register 
+git status  (add , commit)
+git push origin register
+--------------------------> merge dev with register
+{(    git switch dev 
+git pull origin dev  (conflict (solve))
+git status  (add , commit) ----------------------> dev (local syncronized remote)
+git switch register 
+git merge dev (conflict (solve))
+
+})
+
+
+----------> 
+git pull origin dev (conflict (solve))
+git status  (add , commit)
+git push origin register
+
+
+
+
+===========================> merge dev in local with register 
+git switch dev
+git status  (add , commit)
+git push origin dev
+----------> 
+git pull origin register (conflict (solve))
+git status  (add , commit)
+git push origin dev
+
+
+))))))))))))))))))))))))))))))))))))))))))  navbar  (merge dev with navbar)  )))))))))))))))))))))))))))))))))))))))))))))))))
+
+(merge dev in navbar)
+create branch with name feature/navbar (create+ switch)
+
+git switch navbar
+git status  (add , commit)
+git push origin navbar
+
+git pull origin dev   (conflict (solve))
+
+
+git status  (add , commit)
+git push origin  navbar
+
+
+=========> merge navbar in dev
+git switch dev
+
+git status  (add , commit)
+git push origin navbar
+
+git pull origin navbar (conflict (solve))
+
+
+git status  (add , commit)
+git push origin  dev
+
