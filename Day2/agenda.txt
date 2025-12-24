@@ -193,5 +193,8 @@ add stash : git stash
 list stashes : git stash list
 show stash with out remove list : git stash apply
 show stash with  remove list : git stash pop
+clear stash : git stash drop
+delete  specific stash : git stash drop id ===> stash@{0}
+
 
 
