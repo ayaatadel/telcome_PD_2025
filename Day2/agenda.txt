@@ -165,3 +165,17 @@ git pull origin navbar (conflict (solve))
 git status  (add , commit)
 git push origin  dev
 
+===============================> Pull Requst 
+merge between branches (remotely) across (github)
+
+=========================
+
+tasks every day :
+git swicth your_branch 
+git status (add , commit) 
+git pull your_branch_remote -------[admin merge your_branch ]
+[ check if their any conflicts (solve all conflicts)]
+git status (add , commit) 
+
+git push remote branch
+---------> start new code 
