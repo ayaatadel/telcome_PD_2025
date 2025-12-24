@@ -2,27 +2,20 @@ Ahmed Omar
 Seif Ashraf
 Mohamed Ali
 fouad yasser
-1.Ahmed Omar
-2.Seif Ashraf
-3.Ziad Khattab
+Ahmed Omar
+Seif Ashraf
+Ziad Khattab
 Ziad Khattab
 Ziad Osama Mahmoud
 Fady Mohamed
 mahmoud elsayed eissa 
-4- omar mahmoud elsayed gabr
-
+omar mahmoud elsayed gabr
 Mohamed Hesham
 Marwan Helmy
 Mahmoud Osama Mohamed
-
-
-Mohamed Hesham
-<<<<<<< HEAD
-=======
+Mohamed Hesham Elsayed
 Ali Mahmoud
-
 Mohamed Hesham
->>>>>>> d24025839d04f00a5f8eac2ecb7b0807f9a3c0cb
 Mahmoud Salah
 Ali Mahmoud
 Medhat Osama 
