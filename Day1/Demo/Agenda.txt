@@ -2,89 +2,46 @@
 -- histoy of git 
 -- installion
 -- commands 
+dshkjgssssssssfjjjjjjjjjjjjjjjjjjjjjjjjjjjjf
+dfgdhgdjgdsjjjjjjjjjjjjjjjjfff
+fffffffffffffffffffffffffffffffffffffff
+g
+nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+nnnnnnnnnnnnnnnnnnnnnnnnnn
 
+
+
+
+
+
+
+
+
+
+
+
+
+gggggggggggggggggggggggggggggggggggg
+ggggggggggggggggggggggggggggggggggggg
+ggggggggggggggggggggggggggggg
 --------------------------- Commands 
--- initalize git : git init 
--- add file (change on file ) : git add fileName  
-                              :  git add fileName1 fileName2  
---add all files (all changes all files)      :  git add  .
 
--- commit changes (create version)  : git commit -m "MSG"
+                                            ----------> git commit -m "Msg"
 
--- show commits : git log   =====> [commit id ?? author ?? data ?? commit_message  ]
--- show commits one line: git log --oneline   =====> [commit id ?? commit_message  ]
+                               <----------------------
+                               git reset 
+                               git reset file_Name
+                               git reset  file1 file2
 
----> reset changes (back from staging to working) :  git reset ========> reset all files
----> reset changes (back from staging to working) :  git reset file1 file2  ========> reset specific files
+-------- file must be added at least one time  ----------->   git commit -a -m "Msg"                            
+-------- git add file_Name  --------------------------->      git commit -am "Msg"
+------------> add || commit (-a :: add || -m :: msg)
 
-------------------------- > Core Editor
-core editor  VS Code:  git config --global core.editor "code --wait"
-
------------------------->
-
-Dealing With Remote [Git Hub]
----> create Account (gmail)
- ----- mail , userName , password
- ====== > login
-
-
-=====================> link between GitHub :: Git (pc)  :: Setting -- Emails 
-=========>  userName :  git config --global user.name "John Doe"
-=========>  user Email : git config --global user.email johndoe@example.com
-
-
-========================> link between local repo and remote repo 
-1- create repo on git hub
-2- git bash (local )  
------> git status 
-        --- > git add || git commit 
-3- link ===> git remote add origin linkRepo [https://github.com/ayaatadel/telcome_PD_2025.git] (https://github.com/userName/repoName.git )
-
-4- git push origin master (branch)
-
-
------------------------------->  upload changes on repo for second time
-
-git add . (file_Name)
-git commit -m "MSG"
-
-======>
-git commit -am "MSG"
-
-git push origin master
-
-==========================================> .gitignore
--- file --> put file names that you want not to be uploaded on git hub
-==========================================> README.md  ===> Mark down language 
--- file --> information 
----> run projec
----> libraries
---> server 
-
-==============================================>
-collaborators : add peoples on your repo as team  [ setting - collaborators] 
-==============================================>
-clone :  copy repo ---> create any folder --> git bash ==> git clone linkRepo [https://github.com/ayaatadel/telcome_PD_2025.git]
-====> Acces on Repo ----> added as collaborator 
-
------------------> changes  (Pull Request)
-git add .
-git commit -m "msg"
---------> git push origin master [[ rejected --->rejected because the remote contains work that you do not ]]
-git pull origin master
-
-git add .
-git commit -m "msg"
-git push origin master
-
-==========================>
-gitHub Pages : git hub ==> as server
---------> repo public
---------> index (same path of .git )
-
-
---------------------------------
-working area                      staging area                     local_Repo             Remote_Repo
+                                               <-----------------remove commit without removing changes
+                                               git reset --soft Head^ 
+    <------------------------------------------------- with removing changes and commit
+                                               git reset --hard Head^ working area                      staging area                     local_Repo             Remote_Repo
 
  ----------------> git add .  
  ----------------> git add file_Name
@@ -104,7 +61,30 @@ working area                      staging area                     local_Repo   
                                                <-----------------remove commit without removing changes
                                                git reset --soft Head^ 
     <------------------------------------------------- with removing changes and commit
-                                               git reset --hard Head^ 
+                                               git reset --hard Head^ working area                      staging area                     local_Repo             Remote_Repo
+
+ ----------------> git add .  
+ ----------------> git add file_Name
+ ----------------> git add file1 file2
+  
+                                            ----------> git commit -m "Msg"
+
+                               <----------------------
+                               git reset 
+                               git reset file_Name
+                               git reset  file1 file2
+
+-------- file must be added at least one time  ----------->   git commit -a -m "Msg"                            
+-------- git add file_Name  --------------------------->      git commit -am "Msg"
+------------> add || commit (-a :: add || -m :: msg)
+
+                                               <-----------------remove commit without removing changes
+                                               git reset --soft Head^ 
+    <------------------------------------------------- with removing changes and commit
+                                               git reset --hard Head^ ~
+
+--------------------------------
+
 
 
 --------------------> test for back from commit   
